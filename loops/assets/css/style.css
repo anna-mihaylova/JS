@@ -1,0 +1,64 @@
+body{
+      width: 70%;
+      margin: auto;
+      background-color: #393946;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: justify;
+}
+h1{
+    text-align: center;
+    margin: 1%;
+    font-size: 2.5em;
+    color: #838392;
+}
+div{
+    margin: 1% 0%;
+    background-color: #838392;
+	border: 2px outset #8e9799;
+}
+div:hover{
+    border: 2px inset #8e9799;
+}
+h3{
+    display: inline;
+    margin: 0.5% 2%;
+    color: #030326;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.problem{
+    display: inline;
+    margin: 0.5% 0%;
+    color: #030326;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.problem:hover{
+    color: #030326;
+}
+p{
+    display: block;
+    margin: 1.5%;
+    color: #222232;
+    transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+p:hover{
+    color: #fff;
+}
+.background{
+    margin: 0%;
+    padding: 0.5% 2%;
+    background-color: #393946;
+    border: 1px solid  #838392;
+    transition-property: color;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+.background:hover{
+    background-color: #838392;
+    border: 1px solid  #838392;
+}
